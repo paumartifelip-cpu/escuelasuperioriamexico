@@ -101,6 +101,10 @@ html:not([data-theme="light"]) .btn-primary:hover { background: #27b673; }
 .intro-aside .brand-logo { width: 40px; height: 40px; border-radius: 8px; }
 .intro-aside h1 { font-size: 24px; line-height: 1.3; font-weight: 600; letter-spacing: -.2px; margin-bottom: 12px; }
 .lead { color: rgba(255, 255, 255, .78); font-size: 15px; }
+.intro-price { display: flex; align-items: baseline; gap: 6px; margin-top: 20px; }
+.intro-price span { font-size: 12px; text-transform: uppercase; letter-spacing: .6px; color: rgba(255, 255, 255, .7); margin-right: 4px; }
+.intro-price strong { font-size: 32px; font-weight: 700; letter-spacing: -.5px; line-height: 1; }
+.intro-price small { font-size: 14px; font-weight: 500; color: rgba(255, 255, 255, .8); }
 .intro-points { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; color: rgba(255, 255, 255, .85); font-size: 14px; }
 .intro-points li { display: flex; align-items: center; gap: 10px; }
 .intro-points li::before { content: ""; width: 6px; height: 6px; background: #fff; opacity: .7; flex: none; }
