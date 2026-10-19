@@ -55,7 +55,7 @@ h1, h2, h3, p { margin: 0; }
 
 /* ---------- Marca ---------- */
 .brand { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; letter-spacing: -0.5px; }
-.brand-logo { width: 32px; height: 32px; object-fit: contain; flex: none; border-radius: 6px; }
+.brand-logo { width: 32px; height: 32px; object-fit: contain; flex: none; }
 .brand-text { font-size: 18px; }
 .brand-text small { font-weight: 400; color: var(--text-dim); font-size: 11px; margin-left: 2px; }
 
@@ -98,7 +98,7 @@ html:not([data-theme="light"]) .btn-primary:hover { background: #27b673; }
   background: var(--accent-deep); color: #fff;
 }
 .intro-aside .brand-text small { color: rgba(255, 255, 255, .7); }
-.intro-aside .brand-logo { width: 40px; height: 40px; border-radius: 8px; }
+.intro-aside .brand-logo { width: 40px; height: 40px; }
 .intro-aside h1 { font-size: 24px; line-height: 1.3; font-weight: 600; letter-spacing: -.2px; margin-bottom: 12px; }
 .lead { color: rgba(255, 255, 255, .78); font-size: 15px; }
 .intro-price { display: flex; align-items: baseline; gap: 6px; margin-top: 20px; }
